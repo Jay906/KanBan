@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.container {
+  border: 1px solid #ccc;
+  width: 30%;
+  min-height: 400px;
+  background: #fff;
+  padding: 14px 16px;
+}
+
+.container div {
+  font-size: 1.4rem;
+  word-wrap: break-word;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 80%;
+  display: block;
+  margin: auto;
+  height: 35px;
+  padding: 1.5rem;
+  font-size: 1.1rem;
+}
+
+input[type="submit"] {
+  width: 80%;
+  display: block;
+  margin: 7px auto;
+  font-size: 1.1rem;
+  padding: 14px 16px;
+}
+
+.dragging {
+  display: none;
+}
